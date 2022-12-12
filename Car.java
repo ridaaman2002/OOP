@@ -32,5 +32,19 @@ public class car {
 	public void setModel(String model) {
 		this.model = model;
 	}
+
+  	//Methodes
+	public void brake()
+	{
+		System.out.println("Car is breaking");
+	}
+	
+	public void accelerate()
+	{
+		amountOfFuel = amountOfFuel-1;
+		if(amountOfFuel >0) {
+			System.out.println("Car is accelerating");
+		}
+	}
 	
 }
