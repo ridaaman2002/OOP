@@ -16,5 +16,21 @@ public class car {
 		model=modelX;
 		amountOfFuel=amountX;
 	}
+
+  	public void printData()
+	{
+		System.out.println("Brand: "+brand);
+		System.out.println("Model: "+model);
+		System.out.println("Fuel: "+amountOfFuel);
+	}
+	
+	
+	public String getModel() {
+		return model;
+	}
+	
+	public void setModel(String model) {
+		this.model = model;
+	}
 	
 }
